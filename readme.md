@@ -1,5 +1,8 @@
 # Microfrontend PoC
 
+## Why use Vite.js
+https://www.nearform.com/blog/modernise-your-react-development-stack/
+
 ## Using
 - [React.js](https://reactjs.org/)
 - [Vite.js](https://vitejs.dev/)
