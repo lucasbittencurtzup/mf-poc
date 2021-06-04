@@ -8,6 +8,13 @@ https://www.nearform.com/blog/modernise-your-react-development-stack/
 - [Vite.js](https://vitejs.dev/)
 - [Express](https://expressjs.com/)
 
+## Sharing data between microfrotend
+I have chosen to use custom events because it\`s simple to understand and don\`t need a external library.
+You just need to remember to remove listeners.
+[CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent)
+
+A good explanation about this context. https://dev.to/luistak/cross-micro-frontends-communication-30m3
+
 ## Structure
 - core (Frontend application that manage microfrontends)
 - bff  (API that provide existing microfrontends)
